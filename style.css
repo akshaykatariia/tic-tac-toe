@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background-color: rgb(91, 102, 200);
+text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex; 
+    justify-content :center; /*horizontally center*/
+    align-items: center; /*vertically center */
+}
+
+/* In simple terms, display: flex makes the container a flexbox.
+
+This allows the items inside the container to be easily arranged and positioned.
+You can control how the items:
+
+Line up (in a row or column). like justify=- content and align - items are part of dsiplay : flex
+Center themselves in the container. */
+
+.game{ 
+   height: 60vmin; 
+   width: 60vmin;
+   display: flex; 
+   flex-wrap: wrap; /*jgah nhi h toh next line mein aa jayenge boxes  */
+   justify-content: center; /* game ke center mein aa gye boxes */
+   align-items: center;
+   gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 1);
+    font-size : 8vmin;
+    color:   rgb(128, 31, 31);
+    background-color: whitesmoke;
+} 
+
+#reset-btn {
+padding: 1rem;
+font-size : 1.25rem;
+background-color: black;
+color: white;
+border-radius: 1rem;
+border: none;
+}
+
+
+#new-btn {
+    padding: 1rem;
+    font-size : 1.25rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    }
+
+#msg {
+    color : whitesmoke;
+    font-size: 8vmin;
+} 
+
+.msg-container{
+    height: 30vmin;
+}
+    
+.hide{
+    display: none;
+}
+
+
+
+
