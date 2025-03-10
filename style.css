@@ -11,8 +11,8 @@ text-align: center;
 .container{
     height: 70vh;
     display: flex; 
-    justify-content :center; /*horizontally center*/
-    align-items: center; /*vertically center */
+    justify-content :center;/* horizontally center*/
+     align-items: center; /*vertically center */
 }
 
 /* In simple terms, display: flex makes the container a flexbox.
@@ -65,11 +65,16 @@ border: none;
 
 #msg {
     color : whitesmoke;
-    font-size: 8vmin;
+    font-size: 5vmin;
 } 
 
 .msg-container{
-    height: 30vmin;
+    height: 120vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
 }
     
 .hide{
